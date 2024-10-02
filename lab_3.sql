@@ -91,7 +91,7 @@ limit 1;
 /*14*/
 (select name, lastname from employees where city = 'Almaty')
 union
-(select name, lastname from employees where city = 'Almaty');
+(select name, lastname from customers where city = 'Almaty');
 /*15*/
 select * from departments
 where budget > 60000
